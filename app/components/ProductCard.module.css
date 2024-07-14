@@ -1,3 +1,4 @@
+/* cannot use hyphens, always use camelCase */
 .card {
     padding: 1rem;
     border: 1px solid #ccc;
