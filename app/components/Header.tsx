@@ -8,6 +8,8 @@ const Header = () => {
         <Link href="/">Home</Link>
         {" | "}
         <Link href="/users">Users</Link>
+        {" | "}
+        <Link href="/users">Users</Link>
       </nav>
     </header>
   );
