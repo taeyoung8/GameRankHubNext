@@ -1,12 +1,17 @@
-import Image from "next/image";
-import Link from "next/link"
-import ProductCard from "./components/ProductCard";
-export default function Home() {
+// pages/index.tsx
+import Link from 'next/link';
+import ProductCard from './components/ProductCard';
+import Header from './components/Header';
+
+const Home = () => {
   return (
-    <main><h1>Hello World</h1>
-    {/* Client-side navigation */}
-    <Link href ="/users/new">Users</Link>
-    <ProductCard />
+    <main>
+      {/* Client-side navigation */}
+      <Header />
+      <Link href="/users">Users</Link>
+      <ProductCard />
     </main>
   );
 }
+
+export default Home;
