@@ -7,7 +7,7 @@ const Home = () => {
     <main>
       {/* Client-side navigation */}
       {/* <Header /> */}
-      <Link href="/users">Users</Link>
+
       <ProductCard />
     </main>
   );

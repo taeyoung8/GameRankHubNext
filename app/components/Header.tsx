@@ -9,7 +9,9 @@ const Header = () => {
         {" | "}
         <Link href="/users">Users</Link>
         {" | "}
-        <Link href="/users">Users</Link>
+        <Link href="/about">About</Link>
+        {" | "}
+        <Link href="/login">Login</Link>
       </nav>
     </header>
   );
